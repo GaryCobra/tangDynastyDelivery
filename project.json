@@ -1,0 +1,43 @@
+{
+  "name": "tangDynastyDelivery",
+  "version": "1.0.0",
+  "engine": "cocos-creator",
+  "engineVersion": "3.8.0",
+  "platform": "wechatgame",
+  "orientation": "portrait",
+  "groupList": [
+    {
+      "name": "default",
+      "id": 0
+    },
+    {
+      "name": "ui",
+      "id": 1
+    },
+    {
+      "name": "player",
+      "id": 2
+    },
+    {
+      "name": "npc",
+      "id": 3
+    },
+    {
+      "name": "vehicle",
+      "id": 4
+    },
+    {
+      "name": "obstacle",
+      "id": 5
+    }
+  ],
+  "modules": [
+    "cocos2d",
+    "wechat"
+  ],
+  "designResolution": {
+    "width": 1080,
+    "height": 1920,
+    "policy": "SHOW_ALL"
+  }
+}

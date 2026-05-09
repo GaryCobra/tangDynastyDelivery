@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "outDir": "./out",
+    "rootDir": "./assets",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["assets/scripts/*"],
+      "db://*": ["*"]
+    },
+    "lib": ["ES2017", "DOM"],
+    "types": [
+      "wechat-miniprogram"
+    ]
+  },
+  "include": [
+    "assets/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "library",
+    "local",
+    "temp",
+    "build"
+  ]
+}

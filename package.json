@@ -1,0 +1,19 @@
+{
+  "name": "tang-dynasty-delivery",
+  "version": "1.0.0",
+  "description": "《我在大唐送外卖》- 微信小程序游戏",
+  "author": "GaryCobra",
+  "license": "MIT",
+  "scripts": {
+    "build": "cocos build",
+    "build:wechat": "cocos build --platform wechatgame",
+    "preview": "cocos preview"
+  },
+  "dependencies": {
+    "wechat-miniprogram": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/wechat-miniprogram": "^3.0.0"
+  }
+}
