@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SceneAsset",
+  "_name": "DeliveryScene",
+  "_objFlags": 0,
+  "asyncLoadAssets": false,
+  "loaded": true,
+  "scene": {
+    "__type__": "cc.Scene",
+    "_name": "DeliveryScene",
+    "children": [
+      {
+        "__type__": "cc.Node",
+        "_name": "Canvas",
+        "children": [
+          {
+            "__type__": "cc.Node",
+            "_name": "Background"
+          },
+          {
+            "__type__": "cc.Node",
+            "_name": "UI_Layer",
+            "children": [
+              { "__type__": "cc.Node", "_name": "OrderList" },
+              { "__type__": "cc.Node", "_name": "DeliveryPanel" },
+              { "__type__": "cc.Node", "_name": "VehicleInfo" }
+            ]
+          }
+        ],
+        "_components": [
+          {
+            "__type__": "cc.Canvas",
+            "designResolution": { "width": 1080, "height": 1920 }
+          }
+        ]
+      }
+    ]
+  }
+}
