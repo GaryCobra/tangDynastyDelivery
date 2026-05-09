@@ -1,0 +1,128 @@
+{
+  "_name": "gameAssets",
+  "version": "1.0.0",
+  "textures": {
+    "basePath": "textures/",
+    "characters": {
+      "player_male": "characters/player_male.png",
+      "player_male_run": "characters/player_male_run.png",
+      "player_male_carry": "characters/player_male_carry.png",
+      "player_female": "characters/player_female.png",
+      "npc_merchant": "characters/npc_merchant.png",
+      "npc_worker": "characters/npc_worker.png",
+      "npc_customer": "characters/npc_customer.png",
+      "npc_official": "characters/npc_official.png"
+    },
+    "vehicles": {
+      "vehicle_legs": "vehicles/vehicle_legs.png",
+      "vehicle_handcart": "vehicles/vehicle_handcart.png",
+      "vehicle_flatbed": "vehicles/vehicle_flatbed.png",
+      "vehicle_ox_cart": "vehicles/vehicle_ox_cart.png",
+      "vehicle_horse_cart": "vehicles/vehicle_horse_cart.png"
+    },
+    "buildings": {
+      "building_rice_shop": "buildings/building_rice_shop.png",
+      "building_tavern": "buildings/building_tavern.png",
+      "building_cloth_shop": "buildings/building_cloth_shop.png",
+      "building_blacksmith": "buildings/building_blacksmith.png",
+      "building_weapon_shop": "buildings/building_weapon_shop.png",
+      "building_military_camp": "buildings/building_military_camp.png",
+      "building_medical_bureau": "buildings/building_medical_bureau.png",
+      "building_financial_street": "buildings/building_financial_street.png",
+      "building_home": "buildings/building_home.png"
+    },
+    "commodities": {
+      "commodity_grain": "commodities/commodity_grain.png",
+      "commodity_silk": "commodities/commodity_silk.png",
+      "commodity_porcelain": "commodities/commodity_porcelain.png",
+      "commodity_tea": "commodities/commodity_tea.png",
+      "commodity_spice": "commodities/commodity_spice.png"
+    },
+    "ui": {
+      "btn_delivery": "ui/btn_delivery.png",
+      "btn_station": "ui/btn_station.png",
+      "btn_finance": "ui/btn_finance.png",
+      "btn_back": "ui/btn_back.png",
+      "btn_accept": "ui/btn_accept.png",
+      "btn_upgrade": "ui/btn_upgrade.png",
+      "btn_hire": "ui/btn_hire.png",
+      "btn_buy": "ui/btn_buy.png",
+      "btn_sell": "ui/btn_sell.png",
+      "btn_ad": "ui/btn_ad.png",
+      "icon_coins": "ui/icon_coins.png",
+      "icon_stamina": "ui/icon_stamina.png",
+      "icon_reputation": "ui/icon_reputation.png",
+      "icon_weather_sunny": "ui/icon_weather_sunny.png",
+      "icon_weather_rainy": "ui/icon_weather_rainy.png",
+      "icon_weather_snowy": "ui/icon_weather_snowy.png",
+      "panel_bg": "ui/panel_bg.png",
+      "panel_dark": "ui/panel_dark.png"
+    },
+    "tiles": {
+      "tile_road": "tiles/tile_road.png",
+      "tile_path": "tiles/tile_path.png",
+      "tile_grass": "tiles/tile_grass.png",
+      "tile_stone": "tiles/tile_stone.png",
+      "tile_wood": "tiles/tile_wood.png",
+      "tile_water": "tiles/tile_water.png"
+    },
+    "effects": {
+      "effect_perfect": "effects/effect_perfect.png",
+      "effect_coin": "effects/effect_coin.png",
+      "effect_stars": "effects/effect_stars.png",
+      "effect_explosion": "effects/effect_explosion.png",
+      "effect_speed": "effects/effect_speed.png"
+    },
+    "backgrounds": {
+      "bg_main": "backgrounds/bg_main.png",
+      "bg_delivery": "backgrounds/bg_delivery.png",
+      "bg_finance": "backgrounds/bg_finance.png"
+    }
+  },
+  "animations": {
+    "basePath": "animations/",
+    "player": {
+      "idle": "animations/player_idle.png",
+      "run": "animations/player_run.png",
+      "carry": "animations/player_carry.png"
+    },
+    "effects": {
+      "coin_fly": "animations/coin_fly.png"
+    }
+  },
+  "atlas": {
+    "ui_atlas": {
+      "basePath": "textures/ui/",
+      "files": [
+        "btn_delivery.png", "btn_station.png", "btn_finance.png",
+        "btn_back.png", "btn_accept.png", "btn_upgrade.png",
+        "btn_hire.png", "btn_buy.png", "btn_sell.png", "btn_ad.png",
+        "icon_coins.png", "icon_stamina.png", "icon_reputation.png",
+        "icon_weather_sunny.png", "icon_weather_rainy.png", "icon_weather_snowy.png",
+        "panel_bg.png", "panel_dark.png"
+      ]
+    },
+    "building_atlas": {
+      "basePath": "textures/buildings/",
+      "files": [
+        "building_rice_shop.png", "building_tavern.png", "building_cloth_shop.png",
+        "building_blacksmith.png", "building_weapon_shop.png", "building_military_camp.png",
+        "building_medical_bureau.png", "building_financial_street.png", "building_home.png"
+      ]
+    }
+  },
+  "sound": {
+    "basePath": "audio/",
+    "bgm": {
+      "main_theme": "audio/bgm_main.mp3",
+      "delivery": "audio/bgm_delivery.mp3"
+    },
+    "sfx": {
+      "coin": "audio/sfx_coin.mp3",
+      "click": "audio/sfx_click.mp3",
+      "success": "audio/sfx_success.mp3",
+      "fail": "audio/sfx_fail.mp3",
+      "levelup": "audio/sfx_levelup.mp3"
+    }
+  }
+}
